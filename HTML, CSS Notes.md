@@ -8,7 +8,17 @@ set font, background color, etc.. on the page.
 
 ## HTML
 
-### Tags
+---
+
+### Comments
+
+Comments aren't read by the browser, they are there to help the developers
+to communicate and explain the code better.
+
+`<!-- Text between -->` - This is how you create a comment.
+
+
+### Tags - explained
 
 Tags will tell the browser where elements starts and end.
 Tags example:
@@ -16,7 +26,9 @@ Tags example:
 <p>Some text between</p>
 ```
 
-### HTML-Boilplate
+---
+
+## HTML-Boilplate
 
 `index.html` - should be the starting point of the project.
 Web servers by default will look for this file when user load the page.
@@ -52,3 +64,31 @@ characters and icons.
   </body>
 </html>
 ```
+
+---
+
+## HTML Tags
+
+`<p>` - Used to create paragraphs
+
+`<h1>-<h6>` - Headers to the page.
+> **Note** - `h1` should always use for the heading overall page.
+
+`<strong>` - will bold the text in between the tags. It is important for
+screen readers because it will change the voice of the reader.
+
+`<em>` - puts italic font and emphasis the element for screen readers.
+
+`<ul>` - A bullet list. Used when you don't care about the order of the list
+you just want everything to be on a list.
+
+`<ol>` - A list with numbers, usually use to rate something or keep an order.
+
+`<li>` - A list item
+> **Note** - this tag is used in both `<ol>` and `<ul>`
+
+`<a>` - tag to link to relative and absolute files.
+- Absolute - link to webpages on the internet.
+  > For example: link to google main site: `<a href="www.google.com">Hello world</a>`
+- Relative - link to webpages in your website.
+  > For example: link to the about page of the website: `<a href="about.html> About </a>`
