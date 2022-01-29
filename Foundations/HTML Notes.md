@@ -92,3 +92,5 @@ you just want everything to be on a list.
   > For example: link to google main site: `<a href="www.google.com">Hello world</a>`
 - Relative - link to webpages in your website.
   > For example: link to the about page of the website: `<a href="about.html> About </a>`
+
+`<div>` - An empty tag, usually best for styling with CSS
