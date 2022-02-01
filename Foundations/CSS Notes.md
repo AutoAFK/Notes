@@ -107,16 +107,3 @@ Inline CSS:
   <div style="color: white; background-color: black;">...</div>
 </body>
 ```
-
-## CSS Chaining selectors
-
-You can chain the classes or ID's:
-
-```CSS
-.first-class.chained-class{
-    /*code goes here*/
-}
-```
-
-Chaining the classes and id's means that the website will look if there is an element
-which have all the classes and id - an **and** statement
