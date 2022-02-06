@@ -68,6 +68,7 @@ When you chain a selector it selects an element that have both of the selectors.
 > `text-align` - align text horizontally within the element.
 > `height` - sets the height of the element. Prefer to use the word `auto`.
 > `width` - sets the width of the element
+> `box-sizing` - [Information](./CSS Box Model.md)
 
 ## CSS Specification
 
