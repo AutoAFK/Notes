@@ -18,3 +18,5 @@ Flex container is created using: `display: flex`.
 `align-items` - align items across the y axes.
 
 `gap` - the same as adding margin just in between flex items.
+
+`flex-wrap` - wrap the content instead of making it overflow. (make the content move to the next line)
